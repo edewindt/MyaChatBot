@@ -21,7 +21,7 @@ model = load_model('chatbot_model.model')
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmaitizer.lemmatize(word) for word in sentence_words]
-    return sentence
+    return sentence_words
 
 def bag_of_words(sentence):
     sentence_words = clean_up_sentence(sentence)
@@ -43,4 +43,4 @@ def predict_class(sentence):
     return_list = []
     for r in results:
         return_list.append({'intent':classes[r[0]], 'probability': str(r[1])})
-    return list
+    return return_list
