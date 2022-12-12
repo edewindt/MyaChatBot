@@ -1,0 +1,40 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "hows it going"],
+    "responses": ["Hello! What can I do for you?", "Hey, how can I help you?", "How can I assist you?!", "Is anyone there?"]
+},
+{"tag": "goodbye",
+    "patterns": ["cya", "see you later", "goodbye", "I am leaving", "have a good day", "bye", "ciao", "see ya"],
+    "responses": ["See you later :)", "Goodbye. Thanks for chatting with me", "Gone so soon? Well goodbye I guess."]
+},
+{"tag": "name",
+    "patterns": ["what is your name?", "what should I call you?", "who are you?", "can you tell me your name?"],
+    "responses": ["Hello! What can I do for you?", "Hey, how can I help you?", "How can I assist you?!"]
+},
+{"tag": "age",
+    "patterns": ["how old", "how old is elias", "what is your age", "how old are you?", "age?"],
+    "responses": ["20 years old", "He's only 20 years old", "Elias is age 20"]
+},
+{"tag": "education",
+    "patterns": ["what is your education?", "what school did you go to?", "did you go to college?", "do you have a degree?", "whats the highest level of education you've achieved", "what's your major", "which highschool?", "which elementary school?", "which middleschool?"],
+    "responses": ["He doesn't have anything higher than a higschool diploma. He went to Rufus King Highschool. He has a certification from University Of Madison."]
+},
+{"tag": "experience",
+    "patterns": ["what jobs have you worked?", "where have you worked?", "whats your job history?", "what was your last job?", "what is your current job?", "what were your past jobs?", "where did you used to work?"],
+    "responses": ["He's worked at Red Lobster, CapTel, Chili's, and currently works at Prospect"]
+},
+{"tag": "projects",
+    "patterns": ["what have you created?", "what are your projects?", "what have you built?"],
+    "responses": ["He's built front-end applications, backend information services, authentication systems, games, and chatbots like myself :)"]
+},
+{"tag": "skills",
+    "patterns": ["what are you good at", "what are your skills", "what can you do?", "what are your abilities", "what are you capable of?", "what do you know", "what are you an expert in?"],
+    "responses": ["Elias is a programmer, artist, designer, with knowledge of UX, marketing, motion graphics, and video editing"]
+},
+{"tag": "hobbies",
+    "patterns": ["what do you do for fun", "what are your hobbies?", "what are your pastimes", "what do you do with your free time?"],
+    "responses": ["Primarily he codes for fun, doing it with 80 percent of his free time, otherwise art, reading, writing, and video games are also big hobbies" ]
+}
+]
+
+}
