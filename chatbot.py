@@ -10,17 +10,17 @@ import keras.api._v2.keras as keras
 
 from keras.models import load_model
 
-lemmaitizer = WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 
 words = pickle.load(open('words.pkl', 'rb'))
 classes = pickle.load(open('classes.pkl', 'rb'))
 
-model = load_model('chatbot_model.model')
+model = load_model('chatbotmodel.h5')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
-    sentence_words = [lemmaitizer.lemmatize(word) for word in sentence_words]
+    sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
     return sentence_words
 
 def bag_of_words(sentence):
