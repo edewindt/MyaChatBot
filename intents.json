@@ -1,15 +1,19 @@
 {"intents": [
     {"tag": "greetings",
-    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up", "hows it going"],
-    "responses": ["Hello! What can I do for you?", "Hey, how can I help you?", "How can I assist you?!", "Is anyone there?"]
+    "patterns": ["hello", "hey", "hi", "good day", "greetings"],
+    "responses": ["Hello! What can I do for you?", "Hey, how can I help you?", "How can I assist you?!"]
+},
+{"tag": "ask-greet",
+    "patterns": [ "what's up", "hows it going", "what's going on"],
+    "responses": ["I'm a bot lol, not much going on with me", "Unfortunately as a bot I don't have much booked", "My creator just built me. Besides that, its all I can remember."]
 },
 {"tag": "goodbye",
-    "patterns": ["cya", "see you later", "goodbye", "I am leaving", "have a good day", "bye", "ciao", "see ya"],
+    "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "ciao", "see ya"],
     "responses": ["See you later :)", "Goodbye. Thanks for chatting with me", "Gone so soon? Well goodbye I guess."]
 },
 {"tag": "name",
     "patterns": ["what is your name?", "what should I call you?", "who are you?", "can you tell me your name?"],
-    "responses": ["Hello! What can I do for you?", "Hey, how can I help you?", "How can I assist you?!"]
+    "responses": ["My name is Mya Elias's AI bot", "His name is Elias, I'm Mya a chatbot", "My creator's name is Elias, he calls me Mya"]
 },
 {"tag": "age",
     "patterns": ["how old", "how old is elias", "what is your age", "how old are you?", "age?"],
